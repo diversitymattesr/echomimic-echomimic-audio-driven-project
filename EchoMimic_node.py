@@ -446,7 +446,6 @@ class Echo_LoadModel:
     CATEGORY = "EchoMimic"
 
     def main_loader(self,vae,denoising,infer_mode,draw_mouse,motion_sync,lowvram):
-        import time
         ############# model_init started #############
         with contextlib.redirect_stdout(pmo), contextlib.redirect_stderr(pme):
         ## vae init  #using local vae first
